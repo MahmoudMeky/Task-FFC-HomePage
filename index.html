@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC - الفواكه الطازجة</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+    <link rel="stylesheet" href="main.css" />
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Swiper JS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="container">
+          <div class="item">
+            <i class="fa-solid fa-phone icon"></i>
+            <a href="tel:+9651544444">+9651544 444</a>
+          </div>
+          <div class="right">
+            <div class="item">
+              <i class="fa-solid fa-user icon"></i>
+              <a href="#">Login\ Register</a>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-earth-americas icon"></i>
+              <a href="#">English <i class="fa-solid fa-chevron-down"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <a href="/">
+            <img src="/assets/logo-white.png" />
+          </a>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <div class="icons">
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"> </i> </a>
+            <a href="#"> <i class="fa-solid fa-heart"></i> </a>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping">
+                <div class="counter">2</div>
+              </i>
+            </a>
+            <span>KD 8.850</span>
+          </div>
+          <i class="fa-solid fa-bars mobile-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="swiper-navigations swiper-nav1 container">
+        <div class="swiper-arrow-left">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="swiper-arrow-right">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="assets/slider1.jpg" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="container"> -->
+      </div>
+    </div>
+
+    <section class="categories">
+      <div class="swiper-navigations">
+        <div class="swiper-arrow-left2">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="swiper-arrow-right2">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="container">
+        <h3 class="category-title">Explore by Category</h3>
+        <div class="categories-swipper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Vegetables</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Fruits</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Herbs & Leaves</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Fresh Cuts</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Fresh Cuts</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Vegetables</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Fruits</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Herbs & Leaves</a>
+            </div>
+            <div href="#" class="swiper-slide">
+              <img src="assets/categories/1.jpg" />
+              <a href="#">Herbs & Leaves</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-sale">
+      <div class="container">
+        <h3 class="category-title">Top Sale</h3>
+        <div class="products">
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="like">
+                <i class="fa-regular fa-heart hidden"></i>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old hidden">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="discount">Discount 10%</div>
+
+              <div class="like">
+                <i class="fa-regular fa-heart hidden"></i>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="assets/products/1.jpg" />
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-heart hidden"></i>
+              </div>
+            </div>
+            <div class="text">
+              <span class="product-name">Carrots</span>
+              <div class="price">
+                <span class="old hidden">KD 8.850</span>
+                <span class="main">KD 8.850</span>
+              </div>
+              <div class="cart" title="Add to Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="content">
+          <img src="/assets/logo-white.png" width="240px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            voluptatem doloremque aut. Recusandae tempore quo doloribus eum
+            architecto enim expedita ipsam quas id, corrupti dolores dolorum a,
+            minima porro dolorem!
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyrights container">
+      Copyrights &copy; 2022 Fresh Fruit Company. All Rights Reserverd.
+    </div>
+    <!-- Swiper JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
